@@ -8,7 +8,7 @@ A simple-by-design python lib that works in two modes: 1.) allows you to do chea
 - Top 2 ColBERTs in the world are moderncolberts
 - They support long context, 8K.
 
-| Dataset / Model | GTE-ModernColBERT<br/>(Lighton AI) | modern_colbert_base_en_v1<br/>(Ours) | ColBERT-small<br/>(Answer AI, reproduced by Lighton) | jina-colbert-v2 | ColBERTv2.0 <br/> Stanford |
+| Dataset / Model | GTE-ModernColBERT<br/>(Lighton AI) |(Ours) | ColBERT-small<br/>(Answer AI, reproduced by Lighton) | jina-colbert-v2 | ColBERTv2.0 <br/> Stanford |
 |:-----------------|:-----------------:|:-----------------:|:------------------------:|:---------------:|:------------:|
 | **Outfit type**     | AI Lab with PhDs <br/>    | Indie Researcher, <br/> No PhD, No GPU budgets :-)      | AI Lab with PhDs                      | AI Lab with PhDs <br/>|  Academia with PhDs |
 | **BEIR Average**     | **54.75** (🥇)   | **54.19** (🥈)       | 53.14                    | 52.30 | 49.48 |
