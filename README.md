@@ -1,4 +1,4 @@
-# Lateness
+# lateness
 
 A simple-by-design python lib that works in two modes: 1.) allows you to do cheap and lightweight retrieval and 2.) heavy GPU accelerated indexing using ModernColBERT -  `prithivida/modern_colbert_base_en_v1`, (the 2nd best ColBERT in the world) into vectorDBs that offers native multi-vector support like Qdrant, Vespa and more..
 
