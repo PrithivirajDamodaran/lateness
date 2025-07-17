@@ -14,21 +14,8 @@ A simple-by-design python lib that works in two modes: 1.) allows you to do chea
 |:-----------------|:-----------------:|:-----------------:|:------------------------:|:---------------:|:------------:|
 | **Outfit type**     | AI Lab with PhDs <br/>    | Indie Researcher, <br/> No PhD, No GPU budgets :-)      | AI Lab with PhDs                      | AI Lab with PhDs <br/>|  Academia with PhDs |
 | **BEIR Average**     | **54.75** (🥇)   | **54.19** (🥈)       | 53.14                    | 52.30 | 49.48 |
-| **FiQA2018**    | **48.51**         | 43.96             | 41.01                    | 40.8 | 35.6 |
-| **NFCorpus**    | **37.93**         | 37.23             | 36.86                    | 34.6 | 33.8 |
-| **TREC-COVID**  | 83.59             | 83.4             | 83.14                    | **83.4** | 73.3 |
-| **Touche2020**  | **31.23**         | 29.32             | 24.95                    | 27.4 | 26.3 |
-| **ArguAna**     | 48.51             | **52.05**         | 46.76                    | 36.6 | 46.3 |
-| **QuoraRetrieval** | 86.61          | 87.54             | 87.89                | **88.7** | 85.2 |
-| **SCIDOCS**     | 19.06             | **19.42**         | 18.72                    | 18.6 | 15.4 |
-| **SciFact**     | 76.34             | **76.44**             | 74.02                    | 67.8 | 69.3 |
-| **NQ**          | 61.8          | 61.68            | 59.42                    | 64.0 | 56.2 |
-| **ClimateFEVER** | 30.62            | 28.29             | **32.83**                    | 23.9 | 17.6 |
-| **HotpotQA**    | **77.32**         | 76.667             | 76.88                    | 76.6 | 66.7 |
-| **DBPedia**     | **48.03**         | 46.31             | 46.36                    | 47.1 | 44.6 |
-| **FEVER**       | 87.44             | 88.106             | **88.66**                    | 80.5 | 78.5 |
 
-
+PS: Jina and Stanford did not run eval on CQADupstack and MSMARCO hence we skipped to make it fair.
 
 ## Features
 
