@@ -44,7 +44,9 @@ pip install lateness[index]
 
 # pip install lateness
 from lateness import ModernColBERT
-colbert = ModernColBERT("prithivida/modern_colbert_base_en_v1")
+colbert = ModernColBERT("prithivida/modern_colbert_base_en_v1",
+                        max_query_len = 32,
+                        max_doc_len = 300)
 # Output:
 # 🚀 Using ONNX backend Using ONNX backend (default, for GPU accelerated indexing, install lateness[index] and set LATENESS_USE_TORCH=true)
 # 🔄 Downloading model: prithivida/modern_colbert_base_en_v1
@@ -54,7 +56,6 @@ colbert = ModernColBERT("prithivida/modern_colbert_base_en_v1")
 
 ```python
 from lateness import ModernColBERT
-colbert = ModernColBERT("prithivida/modern_colbert_base_en_v1")
 
 documents = [
     "PyTorch is an open-source machine learning framework that provides tensor computations with GPU acceleration and deep neural networks built on tape-based autograd system.",
@@ -68,6 +69,9 @@ queries = [
     "How to implement efficient web APIs?"
 ]
 
+colbert = ModernColBERT("prithivida/modern_colbert_base_en_v1",
+                        max_query_len = 32,
+                        max_doc_len = 300)
 
 
 query_embeddings = colbert.encode_queries(queries)
