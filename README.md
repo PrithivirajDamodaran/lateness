@@ -10,9 +10,9 @@ A simple-by-design python lib that works in two modes: 1.) allows you to do chea
 - They support long context, 8K.
 
 
-| Dataset / Model | GTE-ModernColBERT<br/>(Lighton AI) |(Ours) | ColBERT-small<br/>(Answer AI, reproduced by Lighton) | jina-colbert-v2 | ColBERTv2.0 <br/> Stanford |
+| Dataset / Model | GTE-ModernColBERT<br/>(Lighton AI) | <span style="background-color: #a4f9d9; padding: 4px; border-radius: 4px;">**modern_colbert_base_en_v1**<br/>(Ours)</span> | ColBERT-small<br/>(Answer AI, reproduced by Lighton) | jina-colbert-v2 | ColBERTv2.0<br/>Stanford |
 |:-----------------|:-----------------:|:-----------------:|:------------------------:|:---------------:|:------------:|
-| **BEIR Average**     | **54.75** (🥇)   | **54.19** (🥈)       | 53.14                    | 52.30 | 49.48 |
+| **BEIR Average**     | **54.75** (🥇)   | <span style="background-color:#a4f9d9; padding: 4px; border-radius: 4px;">**54.19** (🥈)</span>       | 53.14                    | 52.30 | 49.48 |
 
 PS: Jina and Stanford did not run eval on CQADupstack and MSMARCO hence we skipped to make it fair.
 
